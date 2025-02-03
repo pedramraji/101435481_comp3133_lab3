@@ -1,0 +1,183 @@
+{
+	"info": {
+		"_postman_id": "a95fca89-5ce6-488a-89ee-df708433c425",
+		"name": "X.COMP3133-L3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32714369"
+	},
+	"item": [
+		{
+			"name": "4",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/restaurants",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"restaurants"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "5.1",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/restaurants/cuisine/Japanese",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"restaurants",
+						"cuisine",
+						"Japanese"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "5.2",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/restaurants/cuisine/Bakery",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"restaurants",
+						"cuisine",
+						"Bakery"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "5.3",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/restaurants/cuisine/Italian",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"restaurants",
+						"cuisine",
+						"Italian"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "6.1",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/restaurants?sortBy=ASC",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"restaurants"
+					],
+					"query": [
+						{
+							"key": "sortBy",
+							"value": "ASC"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "6.2",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/restaurants?sortBy=DESC",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"restaurants"
+					],
+					"query": [
+						{
+							"key": "sortBy",
+							"value": "DESC"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "7",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/restaurants/Delicatessen",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"restaurants",
+						"Delicatessen"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
